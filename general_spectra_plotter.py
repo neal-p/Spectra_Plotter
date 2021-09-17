@@ -1,7 +1,10 @@
 #! shared/centos7/anaconda3/2021.05/bin/python
 
 from argparse import ArgumentParser
-import PySimpleGUI as sg
+try:
+    import PySimpleGUI as sg
+except:
+    print(' * No GUI backend, command line only')
 import re
 import pandas as pd
 import matplotlib.pyplot as plt
