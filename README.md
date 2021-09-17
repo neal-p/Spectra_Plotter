@@ -8,7 +8,7 @@ This is an archive of the updated and more generalized absorbance spectra plotti
   *  **general_spectra_plotter.py** - workhorse script that houses the actual plotting function, accepts the same command line options as the `spectra_plotter.py` script, so if the GUI packages are a dependency you don't want to install and there isn't a released binary for you this script can get run with the same comand line syntax
 
 ## GUI interface
-<img src="GUI.png" width="75%" align="middle" />
+<img src="GUI.png" width="100%" align="middle" />
 
 
 ## Command line interface
